@@ -47,4 +47,15 @@ public class Zahlen {
 		Collections.sort(list);
 		return list.get(list.size());
 	}
+	/**
+	 * gibt die summe aller elmente zurück
+	 * @return die summe
+	 */
+	public int summe ()
+	{
+		int summe = 0;
+		for (int i = 0 ; i< list.size() ; i++)
+			summe = summe + list.get(i);
+		return summe;
+	}
 }
