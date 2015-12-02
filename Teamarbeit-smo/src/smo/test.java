@@ -21,10 +21,29 @@ public class test {
 		bf1 = new BerechnungFlaeche();
 		
 		testRechteckFlaeche();
+		testKreisFlaeche();
+		testDreiecksFlaeche();
 	}
+	/**
+	 * Testet die Methode rechteckFlaeche in der Klasse BerechnungFlaeche
+	 */
 	public void testRechteckFlaeche (){
 		System.out.println(bf1.rechteckFlaeche(1.3,5.6));
-		System.out.println(bf1.rechteckFlaeche(2.7,7.8));
+		System.out.println(bf1.rechteckFlaeche(1,1));
+	}
+	/**
+	 * Testet die Methode kreisFlaeche in der Klasse BerechnungFlaeche
+	 */
+	public void testKreisFlaeche (){
+		System.out.println(bf1.kreisFlaeche(3));
+		System.out.println(bf1.kreisFlaeche(1));
+	}
+	/**
+	 * Testet die Methode dreiecksFlaeche in der Klasse BerechnungFlaeche
+	 */
+	public void testDreiecksFlaeche (){
+		System.out.println(bf1.dreiecksFlaeche(5, 4));
+		System.out.println(bf1.dreiecksFlaeche(1, 1));
 	}
 	public static void main(String[] args) {
 		new test();
