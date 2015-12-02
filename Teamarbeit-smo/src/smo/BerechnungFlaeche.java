@@ -31,8 +31,7 @@ public class BerechnungFlaeche {
 	 * @return die flächen größe
 	 */
 	public double dreiecksFlaeche (double a,double ha){
-		double erg = 1/2*a*ha;
-		return erg;
+		return 0.5*(a*ha);
 	}
 	
 }

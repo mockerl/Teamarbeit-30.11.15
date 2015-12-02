@@ -51,7 +51,7 @@ public class Zahlen {
 	 */
 	public int max() {
 		Collections.sort(list);
-		return list.get(list.size());
+		return list.get(list.size()-1);
 	}
 
 	/**
